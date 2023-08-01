@@ -17,11 +17,11 @@ const Navbar = () => {
       }}
     >
       <Link to="/">
-        <img src={logo} alt="" width="100px" height="100px" />
+        <img src={logo} alt="" width="50px" height="50px" />
       </Link>
-      <Stack sx={{ marginLeft: "auto", marginRight: "auto" }}>
-        <SearchInput />
-      </Stack>
+      {/* <Stack sx={{ marginLeft: "auto", marginRight: "auto" }}> */}
+      <SearchInput />
+      {/* </Stack> */}
     </Stack>
   );
 };

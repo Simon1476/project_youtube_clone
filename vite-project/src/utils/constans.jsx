@@ -18,7 +18,7 @@ import ScienceIcon from "@mui/icons-material/Science";
 
 export const categories = [
   {
-    name: "News",
+    name: "New",
     icon: <ArticleIcon />,
   },
   {
