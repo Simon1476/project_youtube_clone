@@ -5,6 +5,7 @@ import ChannelCard from "./ChannelCard";
 
 const Videos = ({ videos, direction }) => {
   if (!videos) return <Loader />;
+
   return (
     <Stack
       direction={direction || "row"}
