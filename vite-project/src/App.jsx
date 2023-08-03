@@ -34,7 +34,7 @@ function App() {
           element: <ChannelDetail />,
         },
         {
-          path: "/channel/:searchWord",
+          path: "/search/:inputData",
           element: <SearchFeed />,
         },
       ],
