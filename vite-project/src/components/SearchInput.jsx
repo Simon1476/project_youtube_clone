@@ -31,13 +31,8 @@ const SearchInput = () => {
       className="paper-input"
     >
       <input
+        className="search-bar"
         type="text"
-        style={{
-          border: "none",
-          outline: "none",
-          width: "350px",
-          padding: "8px",
-        }}
         value={inputData}
         placeholder="Search for something..."
         onChange={(e) => {
